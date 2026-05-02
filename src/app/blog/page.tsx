@@ -6,7 +6,7 @@ import styles from "./blog.module.css";
 export const metadata: Metadata = {
   title: "Writing | Obed Ugwu",
   description:
-    "Technical writing on backend engineering, fintech, crypto infrastructure, and systems design from a senior engineer based in Lagos, Nigeria.",
+    "Technical writing on backend engineering, fintech, crypto infrastructure, and systems design from me.",
 };
 
 export default function BlogPage() {
