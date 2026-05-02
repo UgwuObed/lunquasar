@@ -1,0 +1,100 @@
+.main {
+  min-height: 100vh;
+  padding-top: 56px;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 5rem 2.5rem 8rem;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  line-height: 1.05;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: var(--muted2);
+  line-height: 1.7;
+  margin-bottom: 3.5rem;
+  max-width: 560px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5px;
+}
+
+.card {
+  display: block;
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--border);
+  transition: border-color 0.2s;
+  cursor: pointer;
+}
+
+.card:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.card:hover {
+  border-color: var(--border2);
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.6rem;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  border: 1px solid;
+  padding: 2px 8px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.4;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.01em;
+}
+
+.excerpt {
+  font-size: 0.9rem;
+  color: var(--muted2);
+  line-height: 1.7;
+  margin-bottom: 0.9rem;
+}
+
+.readMore {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+
+.card:hover .readMore {
+  color: var(--accent);
+}
